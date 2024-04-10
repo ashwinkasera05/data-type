@@ -1,15 +1,22 @@
 #include<stdio.h>
 void main()
 {
-float a1,a2,b1,b2,c;
-//int n;
-printf("enter weight of item1 and item2\n ");
-scanf("%f%f",&a1,&b1);
-printf("enter no of item 1 and 2\n");
-scanf("%f%f",&a2,&b2);
-c = ((a1*a2) + (b1*b2)) / (a2+b2);;
-
-printf("the average is %f",c);
-
+    int num;
+      kg,gram;
+    printf("enter a value \n ");
+    printf("press 1 for weight : \n");
+    printf("press 2 for indian currency : \n");
+    printf("press 3 for days :  \n");
+    printf("press 4 for  meter : \n");
+    scanf("%d",&num);
+    switch (num)
+    {
+        case 1:  
+        printf("enter a kilogram");
+        scanf("%f",&kg);
+        gram=kg*1000;
+        printf("%d * %d = %d",gram,kg);
+        break;
+    }
+    
 }
-
