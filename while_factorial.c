@@ -7,7 +7,8 @@ void main()
     while(i<=n)
     {
         f=f*i;
-        printf("The Factorial of %d is: %d\n",n,  f);
+        //printf("The Factorial of %d is: %d\n",n,  f);
         i++;
     }
+     printf("The Factorial of %d is: %d\n",n,  f);
 }
