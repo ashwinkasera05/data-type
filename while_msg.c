@@ -4,7 +4,7 @@ void main()
   int i=1;
   while(i<=10)
   {
-    printf("my moti is sallo \n");
+    printf("SSI-DIGITAL BY CHETAN SIR  \n");
     i++;
   }
 }
