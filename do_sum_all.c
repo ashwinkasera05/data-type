@@ -1,11 +1,13 @@
 #include<stdio.h>
 void main()
 {
-    int i=1,sum=0,n;
+    float i=1,sum=0,avg;
+
     do
     {
         sum=sum+i;
-        printf("sum =%d  \n",sum);
+        avg=sum/25.0;
+        printf("sum =%f  \n",sum);
         i++;
     }
     while(i<=25);
