@@ -10,4 +10,3 @@ void main()
 	printf("ascii code of %c = %d",ch,ch);
 
 }
-
